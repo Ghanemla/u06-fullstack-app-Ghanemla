@@ -1,27 +1,59 @@
-# GameDB
+# Lududs DB
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.2.
+Lududs DB is a web application that allows users to search for their favorite games and view screenshots and trailers. The application is built using Angular and Laravel, and it uses the RAWG API to retrieve game data.
 
-## Development server
+## Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Search for games using the RAWG API
+- View screenshots and trailers for games
+- Register and login users
 
-## Code scaffolding
+## Technologies
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Angular 15.2.3
+- Laravel 9
+- RAWG API
 
-## Build
+# Getting Started
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+To run Lududs DB locally, follow these steps:
 
-## Running unit tests
+## Clone the repository
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Install dependencies for the Laravel backend:
 
-## Running end-to-end tests
+<pre>composer install or composer update</pre>
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Create a .env file from the .env.example file and add your database credentials
 
-## Further help
+---
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Generate an application key:
+
+<pre>php artisan key:generate</pre>
+
+## Run database migrations:
+
+<pre>
+php artisan migrate
+</pre>
+
+## Install dependencies for the Angular frontend:
+
+<pre>npm install</pre>
+
+## Start the Laravel backend:
+
+<pre>php artisan serve</pre>
+
+## Start the Angular frontend:
+
+<pre>ng serve</pre>
+
+Navigate to http://localhost:4200 in your web browser to use Lududs DB.
+
+Contributing
+Contributions to Lududs DB are welcome! If you find a bug or have a feature request, please open an issue. If you want to contribute code, please fork the repository and create a pull request.
+
+License
+Lududs DB is open source software licensed under the MIT License.
