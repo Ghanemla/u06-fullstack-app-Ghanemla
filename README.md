@@ -55,5 +55,4 @@ Navigate to http://localhost:4200 in your web browser to use Lududs DB.
 Contributing
 Contributions to Lududs DB are welcome! If you find a bug or have a feature request, please open an issue. If you want to contribute code, please fork the repository and create a pull request.
 
-License
-Lududs DB is open source software licensed under the MIT License.
+
